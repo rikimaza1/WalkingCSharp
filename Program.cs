@@ -42,10 +42,10 @@ int trailingDigits = (int) (gradePointAverage * 100) - (leadingDigit * 100);
 Console.WriteLine($"Student: {studentName}\n");
 Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
 
-Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t\t{course1Credit}");
-Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t\t{course2Credit}");
-Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t\t{course3Credit}");
-Console.WriteLine($"{course4Name}\t{course4Grade}\t\t{course4Credit}");
-Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
+Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t{course1Credit}");
+Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t{course2Credit}");
+Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t{course3Credit}");
+Console.WriteLine($"{course4Name}\t\t{course4Grade}\t{course4Credit}");
+Console.WriteLine($"{course5Name}\t\t\t{course5Grade}\t{course5Credit}");
 
 Console.WriteLine($"\nFinal GPA:\t\t\t{leadingDigit}.{trailingDigits}");
