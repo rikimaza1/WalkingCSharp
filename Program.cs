@@ -1,4 +1,4 @@
-﻿Preparación/*
+﻿/*
 This application manages transactions at a store check-out line. The
 check-out line has a cash register, and the register has a cash till
 that is prepared with a number of bills each morning. The till includes
