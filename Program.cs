@@ -37,6 +37,11 @@ while (!shouldExit)
     {
         Move(true);
     }
+    if (GotFood())
+    {
+        ChangePlayer();
+        ShowFood();
+    }
 }
 
 // Returns true if the Terminal was resized 
@@ -118,6 +123,11 @@ void Move(bool otherKeysExit = false)
     // Draw the player at the new location
     Console.SetCursorPosition(playerX, playerY);
     Console.Write(player);
+}
+// Returns true if the player location matches the food location
+bool GotFood()
+{
+    return playerY == foodY && playerX == foodX;
 }
 
 // Clears the console, displays the food and player
