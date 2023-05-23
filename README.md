@@ -16,4 +16,4 @@
 
 ## ¿Qué contiene este repositorio?
 
-Este repositorio contiene los 12 proyectos guiados de microsoft learn se ha llamado a las ramas Ejercicio_x que correponde con el numero de Proyecto_x guiado dentro de estas ramas se han ido realizando commit conforme se avanzava  y se pedian cambios, mejoras e implementaciones del programa.
+Este repositorio contiene los 12 proyectos guiados de microsoft learn se ha llamado a las ramas ejerciciox que correponde con el numero de Proyecto_x guiado dentro de estas ramas se han ido realizando commit conforme se avanzava  y se pedian cambios, mejoras e implementaciones del programa.
